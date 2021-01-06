@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		1475779D25A4D9F000721786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475779C25A4D9F000721786 /* AppDelegate.swift */; };
 		1475779F25A4D9F000721786 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1475779E25A4D9F000721786 /* art.scnassets */; };
-		147577A125A4D9F000721786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147577A025A4D9F000721786 /* ViewController.swift */; };
+		147577A125A4D9F000721786 /* EarthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147577A025A4D9F000721786 /* EarthViewController.swift */; };
 		147577A425A4D9F000721786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147577A225A4D9F000721786 /* Main.storyboard */; };
 		147577A625A4D9F200721786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147577A525A4D9F200721786 /* Assets.xcassets */; };
 		147577A925A4D9F200721786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147577A725A4D9F200721786 /* LaunchScreen.storyboard */; };
+		1494714125A4EC9600552872 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1494714025A4EC9600552872 /* TabBarViewController.swift */; };
+		1494714425A4ED1200552872 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1494714325A4ED1200552872 /* Int.swift */; };
+		1494714925A4F30700552872 /* PaintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1494714825A4F30700552872 /* PaintViewController.swift */; };
+		1494714E25A4F84F00552872 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1494714D25A4F84F00552872 /* UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1475779925A4D9F000721786 /* AREarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AREarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1475779C25A4D9F000721786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1475779E25A4D9F000721786 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		147577A025A4D9F000721786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		147577A025A4D9F000721786 /* EarthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthViewController.swift; sourceTree = "<group>"; };
 		147577A325A4D9F000721786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		147577A525A4D9F200721786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147577A825A4D9F200721786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		147577AA25A4D9F200721786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1494714025A4EC9600552872 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1494714325A4ED1200552872 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		1494714825A4F30700552872 /* PaintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintViewController.swift; sourceTree = "<group>"; };
+		1494714D25A4F84F00552872 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		1475779B25A4D9F000721786 /* AREarth */ = {
 			isa = PBXGroup;
 			children = (
-				1475779C25A4D9F000721786 /* AppDelegate.swift */,
+				147577AA25A4D9F200721786 /* Info.plist */,
 				1475779E25A4D9F000721786 /* art.scnassets */,
-				147577A025A4D9F000721786 /* ViewController.swift */,
-				147577A225A4D9F000721786 /* Main.storyboard */,
+				1475779C25A4D9F000721786 /* AppDelegate.swift */,
+				147577A025A4D9F000721786 /* EarthViewController.swift */,
+				1494714325A4ED1200552872 /* Int.swift */,
+				1494714825A4F30700552872 /* PaintViewController.swift */,
+				1494714025A4EC9600552872 /* TabBarViewController.swift */,
+				1494714D25A4F84F00552872 /* UIButton.swift */,
 				147577A525A4D9F200721786 /* Assets.xcassets */,
 				147577A725A4D9F200721786 /* LaunchScreen.storyboard */,
-				147577AA25A4D9F200721786 /* Info.plist */,
+				147577A225A4D9F000721786 /* Main.storyboard */,
 			);
 			path = AREarth;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				147577A125A4D9F000721786 /* ViewController.swift in Sources */,
+				147577A125A4D9F000721786 /* EarthViewController.swift in Sources */,
+				1494714125A4EC9600552872 /* TabBarViewController.swift in Sources */,
 				1475779D25A4D9F000721786 /* AppDelegate.swift in Sources */,
+				1494714425A4ED1200552872 /* Int.swift in Sources */,
+				1494714925A4F30700552872 /* PaintViewController.swift in Sources */,
+				1494714E25A4F84F00552872 /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
