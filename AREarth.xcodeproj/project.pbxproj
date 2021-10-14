@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1452B8AE25A8C8B1003AF330 /* SurfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452B8AD25A8C8B1003AF330 /* SurfaceViewController.swift */; };
 		1475779D25A4D9F000721786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475779C25A4D9F000721786 /* AppDelegate.swift */; };
 		1475779F25A4D9F000721786 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1475779E25A4D9F000721786 /* art.scnassets */; };
 		147577A125A4D9F000721786 /* EarthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147577A025A4D9F000721786 /* EarthViewController.swift */; };
@@ -17,9 +18,16 @@
 		1494714425A4ED1200552872 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1494714325A4ED1200552872 /* Int.swift */; };
 		1494714925A4F30700552872 /* PaintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1494714825A4F30700552872 /* PaintViewController.swift */; };
 		1494714E25A4F84F00552872 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1494714D25A4F84F00552872 /* UIButton.swift */; };
+		623415122718193900087101 /* MeasurementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623415112718193900087101 /* MeasurementViewController.swift */; };
+		623415172718224200087101 /* SCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623415162718224200087101 /* SCNVector3.swift */; };
+		623415192718233100087101 /* ARSCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623415182718233100087101 /* ARSCNView.swift */; };
+		6234151B2718290700087101 /* EarthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6234151A2718290700087101 /* EarthViewModel.swift */; };
+		6234151E27182BD000087101 /* SurfaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6234151D27182BD000087101 /* SurfaceViewModel.swift */; };
+		623415212718322F00087101 /* SurfaceViewController+ARSCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623415202718322E00087101 /* SurfaceViewController+ARSCNView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1452B8AD25A8C8B1003AF330 /* SurfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceViewController.swift; sourceTree = "<group>"; };
 		1475779925A4D9F000721786 /* AREarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AREarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1475779C25A4D9F000721786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1475779E25A4D9F000721786 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -32,6 +40,12 @@
 		1494714325A4ED1200552872 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		1494714825A4F30700552872 /* PaintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintViewController.swift; sourceTree = "<group>"; };
 		1494714D25A4F84F00552872 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		623415112718193900087101 /* MeasurementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementViewController.swift; sourceTree = "<group>"; };
+		623415162718224200087101 /* SCNVector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3.swift; sourceTree = "<group>"; };
+		623415182718233100087101 /* ARSCNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSCNView.swift; sourceTree = "<group>"; };
+		6234151A2718290700087101 /* EarthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthViewModel.swift; sourceTree = "<group>"; };
+		6234151D27182BD000087101 /* SurfaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceViewModel.swift; sourceTree = "<group>"; };
+		623415202718322E00087101 /* SurfaceViewController+ARSCNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurfaceViewController+ARSCNView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,16 +81,63 @@
 				147577AA25A4D9F200721786 /* Info.plist */,
 				1475779E25A4D9F000721786 /* art.scnassets */,
 				1475779C25A4D9F000721786 /* AppDelegate.swift */,
-				147577A025A4D9F000721786 /* EarthViewController.swift */,
-				1494714325A4ED1200552872 /* Int.swift */,
-				1494714825A4F30700552872 /* PaintViewController.swift */,
-				1494714025A4EC9600552872 /* TabBarViewController.swift */,
-				1494714D25A4F84F00552872 /* UIButton.swift */,
 				147577A525A4D9F200721786 /* Assets.xcassets */,
+				62341515271821C600087101 /* Extensions */,
+				62341514271821BB00087101 /* Storyboards */,
+				62341513271821AC00087101 /* Views */,
+			);
+			path = AREarth;
+			sourceTree = "<group>";
+		};
+		62341513271821AC00087101 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6234151C2718295F00087101 /* Earth */,
+				623415112718193900087101 /* MeasurementViewController.swift */,
+				1494714825A4F30700552872 /* PaintViewController.swift */,
+				6234151F27182BD400087101 /* Surface */,
+				1494714025A4EC9600552872 /* TabBarViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		62341514271821BB00087101 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
 				147577A725A4D9F200721786 /* LaunchScreen.storyboard */,
 				147577A225A4D9F000721786 /* Main.storyboard */,
 			);
-			path = AREarth;
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		62341515271821C600087101 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1494714325A4ED1200552872 /* Int.swift */,
+				1494714D25A4F84F00552872 /* UIButton.swift */,
+				623415162718224200087101 /* SCNVector3.swift */,
+				623415182718233100087101 /* ARSCNView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6234151C2718295F00087101 /* Earth */ = {
+			isa = PBXGroup;
+			children = (
+				147577A025A4D9F000721786 /* EarthViewController.swift */,
+				6234151A2718290700087101 /* EarthViewModel.swift */,
+			);
+			path = Earth;
+			sourceTree = "<group>";
+		};
+		6234151F27182BD400087101 /* Surface */ = {
+			isa = PBXGroup;
+			children = (
+				1452B8AD25A8C8B1003AF330 /* SurfaceViewController.swift */,
+				623415202718322E00087101 /* SurfaceViewController+ARSCNView.swift */,
+				6234151D27182BD000087101 /* SurfaceViewModel.swift */,
+			);
+			path = Surface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +213,17 @@
 			files = (
 				147577A125A4D9F000721786 /* EarthViewController.swift in Sources */,
 				1494714125A4EC9600552872 /* TabBarViewController.swift in Sources */,
+				623415192718233100087101 /* ARSCNView.swift in Sources */,
 				1475779D25A4D9F000721786 /* AppDelegate.swift in Sources */,
+				6234151E27182BD000087101 /* SurfaceViewModel.swift in Sources */,
 				1494714425A4ED1200552872 /* Int.swift in Sources */,
 				1494714925A4F30700552872 /* PaintViewController.swift in Sources */,
 				1494714E25A4F84F00552872 /* UIButton.swift in Sources */,
+				623415212718322F00087101 /* SurfaceViewController+ARSCNView.swift in Sources */,
+				1452B8AE25A8C8B1003AF330 /* SurfaceViewController.swift in Sources */,
+				623415122718193900087101 /* MeasurementViewController.swift in Sources */,
+				623415172718224200087101 /* SCNVector3.swift in Sources */,
+				6234151B2718290700087101 /* EarthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
