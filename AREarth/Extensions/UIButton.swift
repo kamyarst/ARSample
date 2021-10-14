@@ -8,10 +8,10 @@
 import UIKit
 
 extension UIButton {
-    
+
     @IBInspectable var cornerRadius: CGFloat {
         get {
-            return self.layer.cornerRadius
+            self.layer.cornerRadius
         }
         set {
             self.layer.cornerRadius = newValue

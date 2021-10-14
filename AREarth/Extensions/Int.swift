@@ -9,6 +9,6 @@ import UIKit
 
 extension Int {
     var toRadius: CGFloat {
-        return CGFloat(self) * CGFloat.pi / 180
+        CGFloat(self) * CGFloat.pi / 180
     }
 }
