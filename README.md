@@ -1,7 +1,9 @@
 # ARSample
+
+<img src="Demo/ar.png" width="512">
 This is a sample AR project written with Swift language for iOS devices. While I was learning the ARKit framework, I defined this project and this is the result.
 
-It contains 4 sections:
+#### It contains 4 tabs:
 1. Earth and Ship: At the center, there is Earth, and a ship flies around the earth with an animation.
 
 
